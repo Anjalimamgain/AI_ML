@@ -6,7 +6,7 @@
 import pandas as pd
 
 # Import data from a CSV file
-df = pd.read_csv('student_scores.csv')
+df = pd.read_csv('student-scores.csv')
 
 # Display dataset details
 # Number of Rows
@@ -32,4 +32,4 @@ print("\nMinimum values of numerical columns:\n", df.min(numeric_only=True))
 print("\nMaximum values of numerical columns:\n", df.max(numeric_only=True))
 
 # Export data to a new CSV file
-df.to_csv('output.csv', index=False                                                   in this code please change the file name from student-scores.s to student_scores.csv
+df.to_csv('output.csv', index=False)
